@@ -6,3 +6,4 @@ class CreateCustomerService {
         return  {ok: true}
     }
 }
+export {CreateCustomerService}
