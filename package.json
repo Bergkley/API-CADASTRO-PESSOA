@@ -1,0 +1,23 @@
+{
+  "name": "api-cadastro-pessoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bergkley/API-CADASTRO-PESSOA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bergkley/API-CADASTRO-PESSOA/issues"
+  },
+  "homepage": "https://github.com/Bergkley/API-CADASTRO-PESSOA#readme"
+}
