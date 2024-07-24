@@ -4,5 +4,7 @@ interface DeleteCustomerProps {
 }
 
 class DeleteCustomerService {
-   
+    async execute({ id }: DeleteCustomerProps) {
+       
+    }
 }
