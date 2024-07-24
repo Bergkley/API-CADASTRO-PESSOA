@@ -11,3 +11,5 @@ class ListCustomerController {
         reply.send(customers);
     }
 }
+
+export { ListCustomerController }
