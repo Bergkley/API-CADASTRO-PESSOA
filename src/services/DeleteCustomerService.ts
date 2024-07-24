@@ -3,3 +3,6 @@ interface DeleteCustomerProps {
     id: string
 }
 
+class DeleteCustomerService {
+   
+}
