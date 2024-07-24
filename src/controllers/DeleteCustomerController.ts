@@ -12,3 +12,4 @@ class DeleteCustomerController {
         reply.send(customer);
     }
 }
+export { DeleteCustomerController }
