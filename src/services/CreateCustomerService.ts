@@ -1,14 +1,15 @@
 import prismaClient from "../prisma";
 
-interface CreateCustomerProps{
+interface CreateCustomerProps {
   name: string;
   email: string;
 }
 
 class CreateCustomerService {
-  async execute({name, email}: CreateCustomerProps) {
-    console.log("rota foi chamada");
-    return { ok: true };
+  async execute({ name, email }: CreateCustomerProps) {
+    if (!name || !email) {
+      throw new Error("name and email are required");
+    }
   }
 }
 export { CreateCustomerService };
