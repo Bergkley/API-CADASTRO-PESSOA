@@ -6,7 +6,7 @@ interface CreateCustomerProps{
 }
 
 class CreateCustomerService {
-  async execute() {
+  async execute({name, email}: CreateCustomerProps) {
     console.log("rota foi chamada");
     return { ok: true };
   }
