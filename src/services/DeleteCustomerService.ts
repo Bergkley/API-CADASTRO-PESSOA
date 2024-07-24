@@ -24,3 +24,4 @@ class DeleteCustomerService {
         return {message: "customer deleted"}
     }
 }
+export { DeleteCustomerService }
