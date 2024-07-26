@@ -7,11 +7,9 @@ interface CreateCustomerProps {
 
 class CreateCustomerService {
   async execute({ name, email }: CreateCustomerProps) {
-    
     if (!name || !email) {
       throw new Error("name and email are required");
     }
-
     const customer = await prismaClient.customer.create({
       data: {
         name,
