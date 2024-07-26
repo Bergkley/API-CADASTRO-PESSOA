@@ -14,11 +14,11 @@ datasource db {
 }
 
 model Customer {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  name String
-  email String
-  status Boolean
-  create_at DateTime? @default(now())
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
+  name       String
+  email      String
+  status     Boolean
+  create_at  DateTime? @default(now())
   updated_at DateTime? @default(now())
 
   @@map("customers")
