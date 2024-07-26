@@ -14,10 +14,10 @@ class CreateCustomerService {
       data: {
         name,
         email,
-        status: true
+        status: true,
       },
-    })
-    return customer
+    });
+    return customer;
   }
 }
 export { CreateCustomerService };
