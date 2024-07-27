@@ -1,6 +1,7 @@
 # Projeto API-CLIENT
 Este projeto tem como objetivo realizar o back end para cadastrar cliente usando Node Js, Prisma, MongoDB e TypeScript.
 
+
 # 📚 Conceitos
 
 # Node Js
@@ -44,5 +45,9 @@ TypeScript é um superset do JavaScript que adiciona tipagem estática ao códig
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
+
+## Projeto API FRONT + API BACK
+  - [Front-End](https://github.com/Bergkley/FRONT-END/tree/master/PROJETO%208%20-%20API%20CLIENT%20FRONT)
+  - [Back End](https://github.com/Bergkley/BACK-END/tree/master/Projeto%204%20-%20API%20%20CLIENT%20BACK%20END)
 
 
